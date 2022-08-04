@@ -2,12 +2,14 @@
   "name": "a-song-a-day",
   "version": "1.0.0",
   "description": "",
+  "engine": {
+    "node": "18.2.0"
+  },
   "main": "index.js",
   "type": "module",
   "scripts": {
     "start": "node src/app.js",
-    "heroku-prebuild": "npm install -f",
-    "heroku-postbuild": "npm run prod",
+
     "tw:css": "postcss public/css/tailwind.css -o public/css/styles.css"
   },
   "keywords": [],
