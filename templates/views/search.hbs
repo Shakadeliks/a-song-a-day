@@ -1,0 +1,22 @@
+{{> header }}
+<main class="flex items-center flex-col">
+    <h2 class="text-white text-xl my-5">
+        choose your genre
+    </h2>
+    <section class="genres_grid grid xs:grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-7 gap-x-6 gap-y-1">
+        {{#each genres}}
+            <button 
+                class="text-white cursor-pointer transform transition duration-250 hover:scale-110 active:bg-white active:text-black focus:bg-white focus:text-black"
+                value="{{this}}"
+            >
+                {{this}}
+            </button>
+        {{/each}}
+    </section>
+    <button class="search_btn text-white my-5 p-4 border-2 border-white rounded-md hover:bg-white hover:text-black transform transition duration-250 ">
+        get random song
+    </button>
+</main>
+{{> footer }}
+
+<script src="js/search-bundle.js" rel="text/javascript"></script>

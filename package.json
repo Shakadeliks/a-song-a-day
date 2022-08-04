@@ -1,0 +1,36 @@
+{
+  "name": "a-song-a-day",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon src/app.js",
+    "tw:css": "postcss public/css/tailwind.css -o public/css/styles.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.7",
+    "browserify-shim": "^3.8.14",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "font-awesome": "^4.7.0",
+    "hbs": "^4.2.0",
+    "mongodb": "^4.7.0",
+    "mongoose": "^6.4.4",
+    "node-fetch": "^3.2.6",
+    "postcss": "^8.4.14",
+    "postcss-cli": "^10.0.0",
+    "qs": "^6.11.0",
+    "request": "^2.88.2",
+    "save": "^2.5.0",
+    "spotify-web-api-node": "^5.0.2",
+    "tailwindcss": "^3.1.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
