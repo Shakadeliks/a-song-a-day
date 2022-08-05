@@ -8,7 +8,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node src/app.js",
+    "start": "nodemon src/app.js",
 
     "tw:css": "postcss public/css/tailwind.css -o public/css/styles.css"
   },
