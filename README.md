@@ -22,6 +22,9 @@ Most of the songs come with a 30 second preview, so users can get a taste of the
 
 ## Screenshots
 
+![Screen Shot 2022-08-06 at 21 55 49](https://user-images.githubusercontent.com/80819894/183264789-1d6fd9e8-86f6-45ca-85b3-398a440704e3.png)
+![Screen Shot 2022-08-06 at 21 55 19](https://user-images.githubusercontent.com/80819894/183264791-9a9f5dc0-0b2b-45ee-b502-51b46dfbdec5.png)
+![Screen Shot 2022-08-06 at 21 54 51](https://user-images.githubusercontent.com/80819894/183264794-2ba6dda6-f7e3-424b-adef-4627384e99bb.png)
 
 
 ## Lessons Learned
