@@ -16,7 +16,9 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const publicStaticFilesDirPath = path.join(__dirname, '../public');
 const viewsPath = path.join(__dirname, '../templates/views');
-const databaseUrl = process.env.MONGODB_URI || `mongodb+srv://${encodeURIComponent(process.env.MONGO_DB_USER)}:${encodeURIComponent(process.env.MONGO_DB_PASSWORD)}@songs.mjkohuw.mongodb.net/?retryWrites=true&w=majority`
+const databaseUrl = process.env.MONGODB_URL || `mongodb+srv://${encodeURIComponent(process.env.MONGO_DB_USER)}:${encodeURIComponent(process.env.MONGO_DB_PASSWORD)}@songs.mjkohuw.mongodb.net/?retryWrites=true&w=majority`
+
+
 
 app.use(express.static(publicStaticFilesDirPath));
 app.set('view engine', 'hbs');
